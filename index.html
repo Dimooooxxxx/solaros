@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SolarOs — современный Linux-дистрибутив на базе Debian с удобным интерфейсом, высокой скоростью и приватностью.">
+  <title>SolarOs — современный Linux-дистрибутив</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="SolarOs">
+        <img src="2.png" alt="SolarOs" class="brand-logo">
+        <span>SolarOs</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#features">Возможности</a>
+        <a href="#about">О системе</a>
+        <a href="#download">Скачать</a>
+        <a href="#requirements">Требования</a>
+        <a href="#community">Сообщество</a>
+      </nav>
+
+      <a class="nav-button" href="#download">Скачать</a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <a href="#features">Возможности</a>
+      <a href="#about">О системе</a>
+      <a href="#download">Скачать</a>
+      <a href="#requirements">Требования</a>
+      <a href="#community">Сообщество</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Linux-дистрибутив нового поколения</span>
+          <h1>Ваш компьютер.<br><span>Ваша свобода.</span></h1>
+          <p class="hero-text">
+            SolarOs — быстрый и современный Linux-дистрибутив на базе Debian.
+            Знакомый рабочий процесс, аккуратный интерфейс и полный контроль над системой.
+          </p>
+          <div class="hero-actions" id="download">
+            <a class="button button-primary" href="#download-options">Скачать SolarOs <span>↓</span></a>
+            <a class="button button-secondary" href="#about">Узнать больше</a>
+          </div>
+          <div class="hero-meta">
+            <div><strong>Debian</strong><span>основа системы</span></div>
+            <div><strong>GNOME</strong><span>рабочая среда</span></div>
+            <div><strong>100%</strong><span>open source</span></div>
+          </div>
+        </div>
+
+        <div class="hero-logo-card" aria-hidden="true">
+          <div class="glow"></div>
+          <div class="logo-ring ring-one"></div>
+          <div class="logo-ring ring-two"></div>
+          <img src="2.png" alt="Логотип SolarOs" class="hero-logo">
+          <div class="floating-tag tag-top">Stable</div>
+          <div class="floating-tag tag-bottom">Fast • Private • Open</div>
+        </div>
+      </div>
+      <div class="hero-wave"></div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Почему SolarOs</span>
+          <h2>Всё нужное. Ничего лишнего.</h2>
+          <p>SolarOs создан так, чтобы система оставалась простой для новичков и гибкой для опытных пользователей.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-large">
+            <div class="feature-icon">✦</div>
+            <h3>Быстрая и плавная</h3>
+            <p>Оптимизированная система быстро запускается, отзывчиво работает и не мешает вам заниматься своими делами.</p>
+            <div class="mini-ui speed-ui"><span></span><span></span><span></span><small>System performance</small></div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">◉</div>
+            <h3>Привычный интерфейс</h3>
+            <p>GNOME и аккуратный дизайн помогают быстро освоиться после Windows или macOS.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">⌁</div>
+            <h3>Приватность</h3>
+            <p>Открытый исходный код и минимум лишних сервисов позволяют лучше контролировать свои данные.</p>
+          </article>
+          <article class="feature-card feature-wide">
+            <div>
+              <div class="feature-icon">⚙</div>
+              <h3>Для работы и развлечений</h3>
+              <p>Устанавливайте приложения, игры, инструменты для разработки и всё необходимое для повседневной работы.</p>
+            </div>
+            <div class="app-pills"><span>Steam</span><span>VS Code</span><span>Firefox</span><span>Blender</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="about">
+      <div class="container split-grid">
+        <div class="text-block">
+          <span class="eyebrow eyebrow-light">SolarOs</span>
+          <h2>Linux, который хочется использовать каждый день.</h2>
+          <p>
+            В основе SolarOs лежит Debian — стабильная и проверенная база. Поверх неё мы добавляем
+            собственный визуальный стиль, настройки и инструменты, чтобы получить цельную систему без лишней сложности.
+          </p>
+          <div class="checks">
+            <div>✓ Стабильная основа Debian</div>
+            <div>✓ GNOME и современный рабочий стол</div>
+            <div>✓ Регулярные обновления безопасности</div>
+            <div>✓ Открытый исходный код</div>
+          </div>
+          <a class="text-link" href="#requirements">Посмотреть требования →</a>
+        </div>
+
+        <div class="showcase-card">
+          <div class="showcase-top"><span></span><span></span><span></span></div>
+          <div class="showcase-content">
+            <div class="sidebar"></div>
+            <div class="window-main">
+              <div class="window-title">SolarOs</div>
+              <div class="window-cards"><span></span><span></span><span></span><span></span></div>
+              <div class="window-line"></div>
+              <div class="window-line short"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="download-options">
+      <div class="container download-box">
+        <div>
+          <span class="eyebrow">SolarOs 1.0</span>
+          <h2>Готовы попробовать?</h2>
+          <p>Скачайте ISO-образ и установите SolarOs на компьютер или виртуальную машину.</p>
+        </div>
+        <div class="download-actions">
+          <a href="#" class="button button-primary">Скачать ISO</a>
+          <a href="#" class="button button-secondary">SHA256</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section requirements" id="requirements">
+      <div class="container">
+        <div class="section-heading compact">
+          <span class="eyebrow">Системные требования</span>
+          <h2>Не требует мощного ПК.</h2>
+        </div>
+        <div class="requirements-grid">
+          <div class="requirement"><span>Процессор</span><strong>64-bit, 2 ядра</strong></div>
+          <div class="requirement"><span>ОЗУ</span><strong>4 ГБ минимум</strong></div>
+          <div class="requirement"><span>Накопитель</span><strong>25 ГБ свободного места</strong></div>
+          <div class="requirement"><span>Экран</span><strong>1280 × 720 или выше</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section community" id="community">
+      <div class="container community-inner">
+        <div>
+          <span class="eyebrow">Сообщество SolarOs</span>
+          <h2>Создаём систему вместе.</h2>
+          <p>Следите за обновлениями, сообщайте об ошибках и делитесь своими идеями.</p>
+        </div>
+        <div class="community-actions">
+          <a class="button button-dark" href="#">Telegram</a>
+          <a class="button button-outline" href="#">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#top"><img src="2.png" alt="SolarOs"><span>SolarOs</span></a>
+      <p>© 2026 SolarOs. Создано с любовью к Linux.</p>
+      <div class="footer-links"><a href="#about">О проекте</a><a href="#download">Скачать</a><a href="#community">Сообщество</a></div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    menuButton.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('open');
+      menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+
+    document.querySelectorAll('.mobile-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        menuButton.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
+</html>
